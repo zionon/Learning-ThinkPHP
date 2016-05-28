@@ -2,6 +2,7 @@
 //利用ThinkPHP框架开发shop商城系统
 //入口程序文件
 
+<<<<<<< HEAD
 //确定系统模式
 define('APP_DEBUG', true);		//开发模式
 
@@ -15,5 +16,7 @@ define('JS_URL','/Learning-ThinkPHP/shop/Home/Public/JS/');
 define('ADMIN_CSS_URL','/Learning-ThinkPHP/shop/Admin/Public/css/');
 define('ADMIN_IMG_URL','/Learning-ThinkPHP/shop/Admin/Public/img/');
 
+=======
+>>>>>>> 15319c0febcfba5fb0b12790e5054ddd89053f16
 //引入接口文件
 include ("../ThinkPHP/ThinkPHP.php");
