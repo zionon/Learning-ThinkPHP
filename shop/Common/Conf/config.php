@@ -1,7 +1,6 @@
 <?php
 return array(
 	//'配置项'=>'配置值'
-<<<<<<< HEAD
 	//'URL_HTML_SUFFIX' => 'abc'  //URL伪静态后缀设置
 	
 	//使得页面底部显示跟踪信息
@@ -20,6 +19,4 @@ return array(
 		// 'left_delimiter' => '<@@@',
 		// 'right_delimiter' => '@@@>',
 		),
-=======
->>>>>>> 15319c0febcfba5fb0b12790e5054ddd89053f16
 );
