@@ -1,0 +1,2076 @@
+[ 2016-05-28T10:51:01+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-05-28T10:51:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-05-28T10:57:30+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-05-28T10:57:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-28T10:57:36+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-05-28T10:59:36+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005811s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008187s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006017s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-05-28T10:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-05-28T10:59:51+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003223s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-05-28T11:00:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-05-28T11:10:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008484s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-05-28T11:10:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008051s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-05-28T11:11:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-05-28T11:16:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-05-28T11:16:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000440s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002228s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015288s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000378s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007474s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/3_thumb_G_1241422082679.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/24_thumb_G_1241971981429.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/12_thumb_G_1241965978410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/biao7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027165s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_6.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803062307572427.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/9_thumb_G_1241511871555.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240802922410634065.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000459s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/111.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/top_7.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1_thumb_G_1240902890710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/8_thumb_G_1241425513488.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/di.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/ecmoban_link.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/yongda_logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/1240803144788047486.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-05-28T11:16:16+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/images/sousuo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-05-28T11:17:46+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-05-28T11:17:50+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2016-05-28T11:48:49+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-05-28T13:07:11+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-05-28T13:07:13+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-05-28T13:07:23+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-05-28T13:07:38+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-05-28T13:07:43+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-05-28T13:07:50+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-05-28T13:07:51+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2016-05-28T13:17:28+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-05-28T14:02:13+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-05-28T14:42:54+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/index
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T14:42:54+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T14:42:54+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:16:31+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:10+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:11+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:12+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:12+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:13+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:13+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:21:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:21+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:21+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:22+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:23+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:24+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:24+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:25+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:22:26+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:36+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:36+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:37+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:37+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:38+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:40+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:40+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:23:41+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:30:09+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:30:10+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:30:10+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:30:10+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:30:12+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:30:13+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:25+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:26+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:26+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:26+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:27+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:31+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:35:35+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:06+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:07+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:08+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:08+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:10+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:24+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:29+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:30+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:31+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:31+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:33+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:33+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:34+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:34+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:34+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:43:34+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:11+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:11+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:12+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:12+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:57+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:58+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:51:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:01+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:01+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:02+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:04+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:04+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:04+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:52:19+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:57:03+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:57:04+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:57:04+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:57:04+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:57:05+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:58:48+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:59:43+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:59:43+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T15:59:44+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T16:00:06+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-05-28T16:02:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
+
