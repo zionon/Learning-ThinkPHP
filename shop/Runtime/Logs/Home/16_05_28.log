@@ -2074,3 +2074,51 @@ ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-Th
 [ 2016-05-28T16:02:32+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php
 ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 405 ".boxCenterList form{display:inline;}"  - Unexpected ":", expected one of: "}" , " "
 
+[ 2016-05-28T17:22:51+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/
+ERR: Syntax Error in template "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html"  on line 23 "&lt;a href=&quot;{$smarty.const.__MODULE__/User/login&quot;&gt;登录&lt;/a&gt;"  - Unexpected """, expected one of: "}" , " "
+
+[ 2016-05-28T17:23:35+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:23:42+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:23:46+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:31:29+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:31:29+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/goods.htm
+ERR: 非法操作:images
+
+[ 2016-05-28T17:31:29+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/controlbar.htm
+ERR: 非法操作:images
+
+[ 2016-05-28T17:31:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:31:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/goods.htm
+ERR: 非法操作:images
+
+[ 2016-05-28T17:31:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/controlbar.htm
+ERR: 非法操作:images
+
+[ 2016-05-28T17:31:41+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:31:41+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/goods.htm
+ERR: 非法操作:images
+
+[ 2016-05-28T17:31:41+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/controlbar.htm
+ERR: 非法操作:images
+
+[ 2016-05-28T17:31:43+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/catagory
+ERR: 非法操作:catagory
+
+[ 2016-05-28T17:32:06+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-28T17:32:07+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/category.htm
+ERR: 非法操作:images
+

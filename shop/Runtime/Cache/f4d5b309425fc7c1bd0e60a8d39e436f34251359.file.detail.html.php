@@ -1,4 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-28 17:31:29
+         compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Goods/detail.html" */ ?>
+<?php /*%%SmartyHeaderCode:240849944574965711683d1-04725080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'f4d5b309425fc7c1bd0e60a8d39e436f34251359' => 
+    array (
+      0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Goods/detail.html',
+      1 => 1356490230,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '240849944574965711683d1-04725080',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_574965712539d',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_574965712539d')) {function content_574965712539d($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -536,4 +557,4 @@
         <img style="position: absolute; left: -10000px; top: -10000px;" src="./images/9_P_1241511871575.jpg" />
         <img style="position: absolute; left: -10000px; top: -10000px;" src="./images/9_P_1241511871575.jpg" />
     </body>
-</html>
+</html><?php }} ?>
