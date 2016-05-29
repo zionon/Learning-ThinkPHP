@@ -1,0 +1,30 @@
+[ 2016-05-29T21:35:01+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/user/index.php?r=user/login
+ERR: 非法操作:index.php
+
+[ 2016-05-29T21:35:06+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/user/index.php?r=user/login
+ERR: 非法操作:index.php
+
+[ 2016-05-29T21:42:39+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-29T21:42:40+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/goods.htm
+ERR: 非法操作:images
+
+[ 2016-05-29T21:42:40+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/controlbar.htm
+ERR: 非法操作:images
+
+[ 2016-05-29T21:42:55+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-29T21:42:55+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/category.htm
+ERR: 非法操作:images
+
+[ 2016-05-29T22:21:47+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/css/style.css
+ERR: 非法操作:css
+
+[ 2016-05-29T22:21:48+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/goods.htm
+ERR: 非法操作:images
+
+[ 2016-05-29T22:21:48+08:00 ] ::1 /Learning-ThinkPHP/shop/index.php/Home/Goods/images/controlbar.htm
+ERR: 非法操作:images
+
