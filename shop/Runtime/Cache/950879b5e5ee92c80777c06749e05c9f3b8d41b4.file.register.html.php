@@ -1,4 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-28 17:27:25
+         compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/register.html" */ ?>
+<?php /*%%SmartyHeaderCode:16231186695749639e3591d6-50439937%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '950879b5e5ee92c80777c06749e05c9f3b8d41b4' => 
+    array (
+      0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/register.html',
+      1 => 1464427630,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '16231186695749639e3591d6-50439937',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5749639e3dec5',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5749639e3dec5')) {function content_5749639e3dec5($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta name="Generator" content="YONGDA v1.0" />
@@ -8,12 +29,14 @@
 
         <title>YONGDA商城 - Powered by YongDa</title>
 
-        <link href="{$smarty.const.CSS_URL}style.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo @CSS_URL;?>
+style.css" rel="stylesheet" type="text/css" />
 
     </head>
     <body class="index_body">
         <div class="block clearfix" style="position: relative; height: 98px;">
-            <a href="#" name="top"><img class="logo" src="{$smarty.const.IMG_URL}logo.gif"></a>
+            <a href="#" name="top"><img class="logo" src="<?php echo @IMG_URL;?>
+logo.gif"></a>
 
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
@@ -55,22 +78,26 @@
             <form id="searchForm" method="get" action="#">
                 <input name="keywords" id="keyword" type="text" />
 
-                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('{$smarty.const.IMG_URL}sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo @IMG_URL;?>
+sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
 
             </form>
         </div>
         <div class="blank5"></div>
         <div class="header_bg_b">
             <div class="f_l" style="padding-left: 10px;">
-                <img src="{$smarty.const.IMG_URL}biao6.gif" />
+                <img src="<?php echo @IMG_URL;?>
+biao6.gif" />
                 北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
 
             </div>
             <div class="f_r" style="padding-right: 10px;">
-                <img style="vertical-align: middle;" src="{$smarty.const.IMG_URL}biao3.gif">
+                <img style="vertical-align: middle;" src="<?php echo @IMG_URL;?>
+biao3.gif">
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
-                    <a href="#"><img style="vertical-align: middle;" src="{$smarty.const.IMG_URL}biao7.gif"></a>
+                    <a href="#"><img style="vertical-align: middle;" src="<?php echo @IMG_URL;?>
+biao7.gif"></a>
 
             </div>
         </div>
@@ -215,7 +242,8 @@
 
         <div class="blank"></div>
         <div class="block">
-            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="{$smarty.const.IMG_URL}di.jpg"></a>
+            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo @IMG_URL;?>
+di.jpg"></a>
             <div class="blank"></div>
         </div>
 
@@ -272,10 +300,12 @@
         <div id="bottomNav" class="box block">
             <div class="box_1">
                 <div class="links clearfix"> 
-                    <a href="#" target="_blank" title="YONGDA商城"><img src="{$smarty.const.IMG_URL}ecmoban_link.jpg" alt="YONGDA商城" border="0"></a>
+                    <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo @IMG_URL;?>
+ecmoban_link.jpg" alt="YONGDA商城" border="0"></a>
 
                     <a href="#" target="_blank" title="YONGDA 网上商店管理系统">
-                        <img src="{$smarty.const.IMG_URL}yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
+                        <img src="<?php echo @IMG_URL;?>
+yongda_logo.gif" alt="YONGDA 网上商店管理系统" border="0" />
                     </a>
 
 
@@ -317,4 +347,4 @@
         </div>
 
     </body>
-</html>
+</html><?php }} ?>

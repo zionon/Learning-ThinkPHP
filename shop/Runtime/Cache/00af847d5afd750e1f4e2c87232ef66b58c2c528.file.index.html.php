@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-28 16:03:24
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-28 17:23:26
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html" */ ?>
 <?php /*%%SmartyHeaderCode:745670196574942d3b4ff55-14741227%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '00af847d5afd750e1f4e2c87232ef66b58c2c528' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Index/index.html',
-      1 => 1464422602,
+      1 => 1464427404,
       2 => 'file',
     ),
   ),
@@ -43,8 +43,10 @@ logo.gif"></a>
                     <font id="ECS_MEMBERZONE">
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="#"> 登录</a>
-                        <a href="#">注册</a>
+                        <a href="<?php echo @__MODULE__;?>
+/User/login">登录</a>
+                        <a href="<?php echo @__MODULE__;?>
+/user/register">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">
