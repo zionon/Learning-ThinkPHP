@@ -13,7 +13,7 @@ class GoodsController extends Controller{
 		// $info = $goods->select();
 		// dump($info);
 		
-		//2.limit([便宜量，长度])限制查询条数
+		//2.limit([偏移量，长度])限制查询条数
 		// $goods->limit(21,7);
 		// $info = $goods->select();
 		// dump($info);
@@ -85,13 +85,14 @@ class GoodsController extends Controller{
 	//列表展示
 	public function show() {
 		$goods = new \Model\GoodsModel();
-		$info = $goods->select();		//SELECT * FROM sw_goods;
+		//$info = $goods->select();		//SELECT * FROM sw_goods;
 		// $this->display();
 		// $obj = D('User');
 		// dump($obj);
-		$info = $goods->select(17);		//SELECT * FROM `sw_goods` WHERE `goods_id` = 17
-		$info = $goods->select("21,24,29,30");	//SELECT * FROM `sw_goods` WHERE `goods_id` IN ('21','24','29','30')
+		//$info = $goods->select(17);		//SELECT * FROM `sw_goods` WHERE `goods_id` = 17
+		//$info = $goods->select("21,24,29,30");	//SELECT * FROM `sw_goods` WHERE `goods_id` IN ('21','24','29','30')
 		// dump($info);
+		$info = $goods->order('goods_id desc')->limit(0,3)->select();
 		//以下两个方法直接被定义到了父类Controller里边
 		//它们都是对smarty相关方法的封装
 		$this->assign('info',$info);
@@ -103,8 +104,29 @@ class GoodsController extends Controller{
 		$goods = D('Goods');
 		//两个逻辑：展示表单，收集表单信息
 		if (!empty($_POST)) {
+			//处理上传的商品图片
+			if ($_FILES['goods_pic']['error'] === 0) {
+				$cfg = array(
+					'rootPath' => './uploads/',		//保存根路径
+				);
+				$up = new \Think\Upload($cfg);
+				//uploadone()会返回上传附件存储在服务器的“名字”和“路径”等信息
+				$z = $up->uploadOne($_FILES['goods_pic']);
+				//1.把上传好的图片保存到数据库表记录里边
+				$bigpathname = $up->rootPath.$z['savepath'].$z['savename'];
+				$_POST['goods_big_img'] = ltrim($bigpathname,'./');	//去除路径的"./信息"，避免数据的数据有冗余
+
+				//2.给上传好的图片制作缩略图
+				$im = new \Think\Image();		//1.实例化Image类对象
+				$im->open($bigpathname);		//2.打开被处理的图片
+				$im->thumb(125,125,6);			//3.制作缩略图（默认有自适应效果）
+				$smallpathname = $up->rootPath.$z['savepath'].'small'.$z['savename'];
+				$im->save($smallpathname);		//4.保存缩略图到服务器
+				//把制作好的缩略图保存到数据库表记录里边
+				$_POST['goods_small_img'] = ltrim($smallpathname,'./');
+			}
 			//收集表单信息
-			$info = $goods->create()
+			$info = $goods->create();
 			$z = $goods->add($info);
 			if ($z) {
 				//页面跳转

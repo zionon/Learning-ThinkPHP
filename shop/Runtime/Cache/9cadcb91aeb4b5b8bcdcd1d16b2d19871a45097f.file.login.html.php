@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 09:59:57
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 16:43:16
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Manager/login.html" */ ?>
 <?php /*%%SmartyHeaderCode:1734357633574b9e9d80daa2-97739228%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9cadcb91aeb4b5b8bcdcd1d16b2d19871a45097f' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Manager/login.html',
-      1 => 1464424627,
+      1 => 1464597424,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_574b9e9d849d6',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_574b9e9d849d6')) {function content_574b9e9d849d6($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,7 +39,8 @@ User_Login.css" type="text/css" rel="stylesheet" />
                         <li class="user_top_c"></li>
                         <li class="user_top_r"></li></ul>
                 </dd><dd id="user_main">
-                    <form action="#" method="post">
+                    <form action="<?php echo @__SELF__;?>
+" method="post">
                         <ul>
                             <li class="user_main_l"></li>
                             <li class="user_main_c">
@@ -58,8 +59,9 @@ User_Login.css" type="text/css" rel="stylesheet" />
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="<?php echo @ADMIN_IMG_URL;?>
-admin.png"  alt="" />
+                                            <img src="<?php echo @__CONTROLLER__;?>
+/verifyImg"  alt="" onclick="this.src='<?php echo @__CONTROLLER__;?>
+/verifyImg/'+Math.random()" />
                                         </li>
                                     </ul>
                                 </div>

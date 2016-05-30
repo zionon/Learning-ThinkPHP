@@ -6,6 +6,7 @@
 define('APP_DEBUG', true);		//开发模式
 
 //给静态资源文件设置访问常量路径
+define('SITE_URL','http://www.php39.com/Learning-ThinkPHP/shop/');
 //Home分组
 define('CSS_URL','/Learning-ThinkPHP/shop/Home/Public/css/');
 define('IMG_URL','/Learning-ThinkPHP/shop/Home/Public/img/');

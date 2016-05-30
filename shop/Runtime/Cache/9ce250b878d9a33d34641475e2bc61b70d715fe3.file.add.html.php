@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 13:35:56
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 16:52:23
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/add.html" */ ?>
 <?php /*%%SmartyHeaderCode:1071378368574b9e3adffd20-17312534%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9ce250b878d9a33d34641475e2bc61b70d715fe3' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/add.html',
-      1 => 1464586092,
+      1 => 1464598255,
       2 => 'file',
     ),
   ),
@@ -59,6 +59,10 @@ mine.css" type="text/css" rel="stylesheet">
                 <tr>
                     <td>商品重量</td>
                     <td><input type="text" name="goods_weight"></td>
+                </tr>
+                <tr>
+                    <td>商品图片</td>
+                    <td><input type="file" name="goods_pic"></td>
                 </tr>
                 <tr>
                     <td>商品详细描述</td>
