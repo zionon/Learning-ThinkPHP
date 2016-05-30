@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 11:59:25
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 14:06:28
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/show.html" */ ?>
 <?php /*%%SmartyHeaderCode:261933212574b9e22f306e7-94510093%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '477572eca72bbff33e88ed2cc4120120bfb446b2' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/show.html',
-      1 => 1464580731,
+      1 => 1464588369,
       2 => 'file',
     ),
   ),
@@ -101,8 +101,11 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['v']->value['goods_create_time'],"%Y-%m-%d %T");?>
 </td>
                         <td><a href="<?php echo @__MODULE__;?>
-/Goods/update">修改</a></td>
-                        <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
+/Goods/update/goods_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['goods_id'];?>
+">修改</a></td>
+                        <td><a href="<?php echo @__MODULE__;?>
+/Goods/delete/goods_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['goods_id'];?>
+" onclick="delete_product(1)">删除</a></td>
                     </tr>
                     <?php } ?>
                     <tr>

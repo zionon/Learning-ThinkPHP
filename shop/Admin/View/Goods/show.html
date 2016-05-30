@@ -54,8 +54,8 @@
                         <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174034-97960.jpg" height="40" width="40"></td>
                         <td>{$v.goods_brand_id}</td>
                         <td>{$v.goods_create_time|date_format:"%Y-%m-%d %T"}</td>
-                        <td><a href="{$smarty.const.__MODULE__}/Goods/update">修改</a></td>
-                        <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
+                        <td><a href="{$smarty.const.__MODULE__}/Goods/update/goods_id/{$v.goods_id}">修改</a></td>
+                        <td><a href="{$smarty.const.__MODULE__}/Goods/delete/goods_id/{$v.goods_id}" onclick="delete_product(1)">删除</a></td>
                     </tr>
                     {/foreach}
                     <tr>

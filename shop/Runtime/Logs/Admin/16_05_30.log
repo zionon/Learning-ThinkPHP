@@ -335,3 +335,45 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
 
+[ 2016-05-30T12:54:38+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/test
+ERR: 非法操作:test
+
+[ 2016-05-30T12:54:40+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/test
+ERR: 非法操作:test
+
+[ 2016-05-30T12:54:41+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/test
+ERR: 非法操作:test
+
+[ 2016-05-30T13:14:09+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/test
+ERR: 非法操作:test
+
+[ 2016-05-30T13:35:54+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/testUpdate
+ERR: 非法操作:testUpdate
+
+[ 2016-05-30T13:35:55+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/test
+ERR: 非法操作:test
+
+[ 2016-05-30T13:35:55+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/testUpdate
+ERR: 非法操作:testUpdate
+
+[ 2016-05-30T13:35:56+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/showlist
+ERR: 非法操作:showlist
+
+[ 2016-05-30T13:36:50+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/add
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect decimal value: '' for column 'goods_price' at row 1
+
+[ 2016-05-30T13:40:34+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/update
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-05-30T13:59:36+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/update
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-05-30T13:59:39+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/update/1
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-05-30T14:06:22+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/update
+ERR: 参数错误或者未定义:goods_id
+
+[ 2016-05-30T14:06:24+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/
+ERR: 非法操作:index
+
