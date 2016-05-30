@@ -3,7 +3,7 @@
 //后台管理员控制器
 //命名空间
 namespace Admin\Controller;
-use Think\Think;
+use Think\Controller;
 
 class ManagerController extends Controller{
 	/**

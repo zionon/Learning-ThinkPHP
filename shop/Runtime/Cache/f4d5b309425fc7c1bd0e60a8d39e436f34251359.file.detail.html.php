@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-28 17:31:29
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 09:45:50
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Goods/detail.html" */ ?>
 <?php /*%%SmartyHeaderCode:240849944574965711683d1-04725080%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f4d5b309425fc7c1bd0e60a8d39e436f34251359' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/Goods/detail.html',
-      1 => 1356490230,
+      1 => 1464572743,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_574965712539d',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_574965712539d')) {function content_574965712539d($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -29,20 +29,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         
         <title>诺基亚E66_GSM手机_手机类型_YONGDA商城 - Powered by YongDa</title>
         
-        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo @CSS_URL;?>
+style.css" rel="stylesheet" type="text/css" />
         
     </head>
     <body style="cursor: auto;">
         <div class="block clearfix" style="position: relative; height: 98px;">
             <a href="#" name="top">
-                <img class="logo" src="./images/logo.gif" />
+                <img class="logo" src="<?php echo @IMG_URL;?>
+logo.gif" />
             </a>
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
                     <font id="ECS_MEMBERZONE"><div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="#"> 登录</a>
-                        <a href="#">注册</a>
+                        <a href="<?php echo @__MODULE__;?>
+/User/login">登录</a>
+                        <a href="<?php echo @__MODULE__;?>
+/user/register">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">
@@ -75,20 +79,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
             <form id="searchForm" method="get" >
                 <input name="keywords" id="keyword" type="text" />
-                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('./images/sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo @IMG_URL;?>
+sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
             </form>
         </div>
         <div class="blank5"></div>
         <div class="header_bg_b">
             <div class="f_l" style="padding-left: 10px;">
-                <img src="./images/biao6.gif">
+                <img src="<?php echo @IMG_URL;?>
+biao6.gif">
                     北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
             </div>
             <div class="f_r" style="padding-right: 10px;">
-                <img style="vertical-align: middle;" src="./images/biao3.gif">
+                <img style="vertical-align: middle;" src="<?php echo @IMG_URL;?>
+biao3.gif">
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 1 件商品，总计金额 ￥2000.00元。</a></span>
-                    <a href="#"><img style="vertical-align: middle;" src="./images/biao7.gif"></a>
+                    <a href="#"><img style="vertical-align: middle;" src="<?php echo @IMG_URL;?>
+biao7.gif"></a>
 
             </div>
         </div>
@@ -131,7 +139,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <div class="box_1">
 
                         <div class="boxCenterList clearfix" id="history_list">
-                            <ul class="clearfix"><li class="goodsimg"><a href="#" target="_blank"><img src="./images/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="B_blue"></a></li><li><a href="#" target="_blank" title="飞利浦9@9v">飞利浦9@9v</a><br />本店售价：<font class="f1">￥399元</font><br /></li></ul><ul class="clearfix"><li class="goodsimg"><a href="#" target="_blank"><img src="./images/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="B_blue"></a></li><li><a href="#" target="_blank" title="诺基亚E66">诺基亚E66</a><br />本店售价：<font class="f1">￥2298元</font><br /></li></ul><ul class="clearfix"><li class="goodsimg"><a href="#" target="_blank"><img src="./images/17_thumb_G_1241969394587.jpg" alt="夏新N7" class="B_blue"></a></li><li><a href="#" target="_blank" title="夏新N7">夏新N7</a><br />本店售价：<font class="f1">￥2300元</font><br /></li></ul><ul id="clear_history"><a onclick="clear_history()">[清空]</a></ul>  </div>
+                            <ul class="clearfix"><li class="goodsimg"><a href="#" target="_blank"><img src="<?php echo @IMG_URL;?>
+8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="B_blue"></a></li><li><a href="#" target="_blank" title="飞利浦9@9v">飞利浦9@9v</a><br />本店售价：<font class="f1">￥399元</font><br /></li></ul><ul class="clearfix"><li class="goodsimg"><a href="#" target="_blank"><img src="<?php echo @IMG_URL;?>
+9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="B_blue"></a></li><li><a href="#" target="_blank" title="诺基亚E66">诺基亚E66</a><br />本店售价：<font class="f1">￥2298元</font><br /></li></ul><ul class="clearfix"><li class="goodsimg"><a href="#" target="_blank"><img src="<?php echo @IMG_URL;?>
+17_thumb_G_1241969394587.jpg" alt="夏新N7" class="B_blue"></a></li><li><a href="#" target="_blank" title="夏新N7">夏新N7</a><br />本店售价：<font class="f1">￥2300元</font><br /></li></ul><ul id="clear_history"><a onclick="clear_history()">[清空]</a></ul>  </div>
                     </div>
                 </div>
                 <div class="blank5"></div>
@@ -140,13 +151,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="AreaR">
                 <div id="goodsInfo" class="clearfix">
                     <div class="imgInfo">
-                        <a style="position: relative; display: block; outline: 0pt none; text-decoration: none; width: 310px; -moz-user-select: none;" href="./images/200905/goods_img/9_P_1241511871575.jpg" id="zoom1" class="MagicZoom MagicThumb" title="诺基亚E66">
-                            <img id="sim806035" src="./images/9_G_1241511871574.jpg" alt="诺基亚E66" height="310px" width="310px;" />
+                        <a style="position: relative; display: block; outline: 0pt none; text-decoration: none; width: 310px; -moz-user-select: none;" href="<?php echo @IMG_URL;?>
+200905/goods_img/9_P_1241511871575.jpg" id="zoom1" class="MagicZoom MagicThumb" title="诺基亚E66">
+                            <img id="sim806035" src="<?php echo @IMG_URL;?>
+9_G_1241511871574.jpg" alt="诺基亚E66" height="310px" width="310px;" />
                             <div class="MagicZoomBigImageCont" style="width: 200px; height: 269px; overflow: hidden; z-index: 100; visibility: visible; position: absolute; top: -10000px; left: 327px; display: block;" id="bc806035">
                                 <div style="position: relative; z-index: 10; left: 0px; top: 0px; padding: 3px;" id="MagicZoomHeaderbc806035" class="MagicZoomHeader">诺基亚E66
                                 </div>
                                 <div style="overflow: hidden;">
-                                    <img style="position: relative; border-width: 0px; padding: 0px; left: 0px; top: 0px; display: block; visibility: visible;" src="./images/9_P_1241511871575.jpg" />
+                                    <img style="position: relative; border-width: 0px; padding: 0px; left: 0px; top: 0px; display: block; visibility: visible;" src="<?php echo @IMG_URL;?>
+9_P_1241511871575.jpg" />
                                 </div>
                                 <div style="color:red; font-size: 10px; font-weight: bold; font-family: Tahoma; position: absolute; width: 100%; text-align: center; left: 0px; top: 249px;">
                                 </div>
@@ -157,18 +171,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="blank5"></div>
                         <div style="text-align: center; position: relative; width: 100%;">
                             <a href="#">
-                                <img style="position: absolute; left: 0pt;" alt="prev" src="./images/up.gif" /></a>
+                                <img style="position: absolute; left: 0pt;" alt="prev" src="<?php echo @IMG_URL;?>
+up.gif" /></a>
                             <a href="javascript:;" onclick="window.open('gallery.php?id=9'); return false;">
-                                <img alt="zoom" src="./images/zoom.gif" />
+                                <img alt="zoom" src="<?php echo @IMG_URL;?>
+zoom.gif" />
                             </a>
                             <a href="#">
-                                <img style="position: absolute; right: 0pt;" alt="next" src="./images/down.gif" /></a>
+                                <img style="position: absolute; right: 0pt;" alt="next" src="<?php echo @IMG_URL;?>
+down.gif" /></a>
                         </div>
                         <div class="blank5"></div>
 
                         <div class="picture" id="imglist">
-                            <a style="outline: 0pt none;" href="./images/200905/goods_img/9_P_1241511871575.jpg" rel="zoom1" rev="images/200905/goods_img/9_P_1241511871575.jpg" title="">
-                                <img src="./images/9_thumb_P_1241511871787.jpg" alt="诺基亚E66" class="onbg" /></a>
+                            <a style="outline: 0pt none;" href="<?php echo @IMG_URL;?>
+200905/goods_img/9_P_1241511871575.jpg" rel="zoom1" rev="images/200905/goods_img/9_P_1241511871575.jpg" title="">
+                                <img src="<?php echo @IMG_URL;?>
+9_thumb_P_1241511871787.jpg" alt="诺基亚E66" class="onbg" /></a>
                         </div>
                     </div>
 
@@ -220,7 +239,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <li class="clearfix">
                                     <dd>
                                         <strong>用户评价：</strong>
-                                        <img src="./images/stars5.gif" alt="comment rank 5">
+                                        <img src="<?php echo @IMG_URL;?>
+stars5.gif" alt="comment rank 5">
                                     </dd>
                                 </li>
                                 <li class="padd">
@@ -270,9 +290,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 </li>
 
                                 <li class="padd">
-                                    <a href="#"><img src="./images/goumai2.gif"></a>
-                                    <a href="#"><img src="./images/shoucang2.gif"></a>
-                                    <a href="#"><img src="./images/tuijian.gif"></a>
+                                    <a href="#"><img src="<?php echo @IMG_URL;?>
+goumai2.gif"></a>
+                                    <a href="#"><img src="<?php echo @IMG_URL;?>
+shoucang2.gif"></a>
+                                    <a href="#"><img src="<?php echo @IMG_URL;?>
+tuijian.gif"></a>
                                 </li>
                             </ul>
                         </form>
@@ -342,19 +365,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="boxCenterList clearfix ie6">
                             <div class="goodsItem">
                                 <a href="#">
-                                    <img src="./images/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg"></a><br />
+                                    <img src="<?php echo @IMG_URL;?>
+24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg"></a><br />
                                 <p><a href="#" title="P806">P806</a></p> 
                                 <font class="shop_s">￥2000元</font>
                             </div>
                             <div class="goodsItem">
                                 <a href="#">
-                                    <img src="./images/22_thumb_G_1241971076803.jpg" alt="多普达Touch HD" class="goodsimg" /></a><br />
+                                    <img src="<?php echo @IMG_URL;?>
+22_thumb_G_1241971076803.jpg" alt="多普达Touch HD" class="goodsimg" /></a><br />
                                 <p><a href="#" title="多普达Touch HD">多普达Touc...</a></p> 
                                 <font class="shop_s">￥5999元</font>
                             </div>
                             <div class="goodsItem">
                                 <a href="#">
-                                    <img src="./images/13_thumb_G_1241968002527.jpg" alt="诺基亚5320 XpressMusic" class="goodsimg" /></a><br />
+                                    <img src="<?php echo @IMG_URL;?>
+13_thumb_G_1241968002527.jpg" alt="诺基亚5320 XpressMusic" class="goodsimg" /></a><br />
                                 <p><a href="#" title="诺基亚5320 XpressMusic">诺基亚5320...</a></p> 
                                 <font class="shop_s">￥1311元</font>
                             </div>
@@ -414,15 +440,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <td align="right">评价等级：</td>
                                                     <td>
                                                         <input name="comment_rank" value="1" id="comment_rank1" type="radio" /> 
-                                                        <img src="./images/stars1.gif" />
+                                                        <img src="<?php echo @IMG_URL;?>
+stars1.gif" />
                                                         <input name="comment_rank" value="2" id="comment_rank2" type="radio" /> 
-                                                        <img src="./images/stars2.gif" />
+                                                        <img src="<?php echo @IMG_URL;?>
+stars2.gif" />
                                                         <input name="comment_rank" value="3" id="comment_rank3" type="radio" /> 
-                                                        <img src="./images/stars3.gif" />
+                                                        <img src="<?php echo @IMG_URL;?>
+stars3.gif" />
                                                         <input name="comment_rank" value="4" id="comment_rank4" type="radio" /> 
-                                                        <img src="./images/stars4.gif" />
+                                                        <img src="<?php echo @IMG_URL;?>
+stars4.gif" />
                                                         <input name="comment_rank" value="5" checked="checked" id="comment_rank5" type="radio" /> 
-                                                        <img src="./images/stars5.gif" />
+                                                        <img src="<?php echo @IMG_URL;?>
+stars5.gif" />
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -437,7 +468,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                                     <td colspan="2">
                                                         <div style="padding-left: 15px; text-align: left; float: left;">
                                                             验证码：<input name="captcha" class="inputBorder" style="width: 50px; margin-left: 5px;" type="text" />
-                                                            <img src="./images/captcha.png" alt="captcha" onclick="this.src='captcha.php?'+Math.random()" class="captcha" />
+                                                            <img src="<?php echo @IMG_URL;?>
+captcha.png" alt="captcha" onclick="this.src='captcha.php?'+Math.random()" class="captcha" />
                                                         </div>
                                                         <input name="" value="评论咨询" class="f_r bnt_blue_1" style="margin-right: 8px;" type="submit" />
                                                     </td>
@@ -457,7 +489,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div>
         <div class="blank"></div>
         <div class="block">
-            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="./images/di.jpg" /></a>
+            <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo @IMG_URL;?>
+di.jpg" /></a>
             <div class="blank"></div>
         </div>
         <div class="block">
@@ -508,7 +541,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div id="bottomNav" class="box block">
             <div class="box_1">
                 <div class="links clearfix"> 
-                    <a href="#" target="_blank" title="YONGDA商城"><img src="./images/goods.htm" alt="YONGDA商城" border="0" /></a>
+                    <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo @IMG_URL;?>
+goods.htm" alt="YONGDA商城" border="0" /></a>
 
 
                     [<a href="#" target="_blank" title="">yongda商城</a>]
@@ -552,9 +586,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </a>
             </div>
         </div>
-        <img class="MagicThumb-image" style="position: absolute; top: -9999px; display: none;" src="./images/9_P_1241511871575.jpg" />
-        <img src="./images/controlbar.htm" style="position: absolute; top: -999px;" />
-        <img style="position: absolute; left: -10000px; top: -10000px;" src="./images/9_P_1241511871575.jpg" />
-        <img style="position: absolute; left: -10000px; top: -10000px;" src="./images/9_P_1241511871575.jpg" />
+        <img class="MagicThumb-image" style="position: absolute; top: -9999px; display: none;" src="<?php echo @IMG_URL;?>
+9_P_1241511871575.jpg" />
+        <img src="<?php echo @IMG_URL;?>
+controlbar.htm" style="position: absolute; top: -999px;" />
+        <img style="position: absolute; left: -10000px; top: -10000px;" src="<?php echo @IMG_URL;?>
+9_P_1241511871575.jpg" />
+        <img style="position: absolute; left: -10000px; top: -10000px;" src="<?php echo @IMG_URL;?>
+9_P_1241511871575.jpg" />
     </body>
 </html><?php }} ?>

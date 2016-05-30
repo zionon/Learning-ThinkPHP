@@ -13,7 +13,7 @@
     </head>
     <body class="index_body">
         <div class="block clearfix" style="position: relative; height: 98px;">
-            <a href="#" name="top"><img class="logo" src="{$smarty.const.IMG_URL}logo.gif"></a>
+            <a href="{$smarty.const.__MODULE__}/Index/index" name="top"><img class="logo" src="{$smarty.const.IMG_URL}logo.gif"></a>
 
             <div id="topNav" class="clearfix">
                 <div style="float: left;"> 
@@ -21,8 +21,8 @@
 
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="./index.php?r=user/login"> 登录</a>
-                        <a href="./index.php?r=user/register">注册</a>
+                        <a href="{$smarty.const.__MODULE__}/user/login">登录</a>
+                        <a href="{$smarty.const.__MODULE__}/user/register">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">

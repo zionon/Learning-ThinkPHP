@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="block clearfix" style="position: relative; height: 98px;">
-            <a href="#" name="top">
+            <a href="{$smarty.const.__MODULE__}/Index/index" name="top">
                 <img class="logo" src="{$smarty.const.IMG_URL}logo.gif">
             </a>
 
@@ -22,8 +22,8 @@
                 <div style="float: left;"> 
                     <font id="ECS_MEMBERZONE"><div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="#"> 登录</a>
-                        <a href="#">注册</a>
+                        <a href="{$smarty.const.__MODULE__}/User/login">登录</a>
+                        <a href="{$smarty.const.__MODULE__}/User/register">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">

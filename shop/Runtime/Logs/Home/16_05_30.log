@@ -1,0 +1,21 @@
+[ 2016-05-30T09:38:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/User/detail
+ERR: 非法操作:detail
+
+[ 2016-05-30T09:47:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/user/index.php?r=user/login
+ERR: 非法操作:index.php
+
+[ 2016-05-30T09:48:07+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/user/index.php?r=user/login
+ERR: 非法操作:index.php
+
+[ 2016-05-30T09:48:51+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/user/index.php?r=user/login
+ERR: 非法操作:index.php
+
+[ 2016-05-30T09:48:55+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/user/index.php?r=user/login
+ERR: 非法操作:index.php
+
+[ 2016-05-30T09:51:14+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/User/__MODULE/Index/index
+ERR: 非法操作:__MODULE
+
+[ 2016-05-30T09:51:22+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Home/User/__MODULE/Index/index
+ERR: 非法操作:__MODULE
+

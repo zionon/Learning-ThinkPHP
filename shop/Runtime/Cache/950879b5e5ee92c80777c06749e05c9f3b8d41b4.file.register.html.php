@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-28 17:27:25
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 09:51:24
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/register.html" */ ?>
 <?php /*%%SmartyHeaderCode:16231186695749639e3591d6-50439937%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '950879b5e5ee92c80777c06749e05c9f3b8d41b4' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/register.html',
-      1 => 1464427630,
+      1 => 1464573080,
       2 => 'file',
     ),
   ),
@@ -35,7 +35,8 @@ style.css" rel="stylesheet" type="text/css" />
     </head>
     <body class="index_body">
         <div class="block clearfix" style="position: relative; height: 98px;">
-            <a href="#" name="top"><img class="logo" src="<?php echo @IMG_URL;?>
+            <a href="<?php echo @__MODULE__;?>
+/Index/index" name="top"><img class="logo" src="<?php echo @IMG_URL;?>
 logo.gif"></a>
 
             <div id="topNav" class="clearfix">
@@ -44,8 +45,10 @@ logo.gif"></a>
 
                         <div id="append_parent"></div>
                         欢迎光临本店&nbsp;
-                        <a href="./index.php?r=user/login"> 登录</a>
-                        <a href="./index.php?r=user/register">注册</a>
+                        <a href="<?php echo @__MODULE__;?>
+/user/login">登录</a>
+                        <a href="<?php echo @__MODULE__;?>
+/user/register">注册</a>
                     </font>
                 </div>
                 <div style="float: right;">

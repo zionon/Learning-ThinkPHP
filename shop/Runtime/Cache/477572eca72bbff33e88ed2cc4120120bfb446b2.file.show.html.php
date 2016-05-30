@@ -1,11 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 10:05:15
+         compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/show.html" */ ?>
+<?php /*%%SmartyHeaderCode:261933212574b9e22f306e7-94510093%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '477572eca72bbff33e88ed2cc4120120bfb446b2' => 
+    array (
+      0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/show.html',
+      1 => 1464573908,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '261933212574b9e22f306e7-94510093',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_574b9e23041c9',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_574b9e23041c9')) {function content_574b9e23041c9($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
         <title>会员列表</title>
 
-        <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+        <link href="<?php echo @ADMIN_CSS_URL;?>
+mine.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
         <style>
@@ -15,7 +37,8 @@
             <span>
                 <span style="float: left;">当前位置是：商品管理-》商品列表</span>
                 <span style="float: right; margin-right: 8px; font-weight: bold;">
-                    <a style="text-decoration: none;" href="{$smarty.const.__CONTROLLER__}/add">【添加商品】</a>
+                    <a style="text-decoration: none;" href="<?php echo @__CONTROLLER__;?>
+/add">【添加商品】</a>
                 </span>
             </span>
         </div>
@@ -49,11 +72,14 @@
                         <td><a href="#">苹果（APPLE）iPhone 4S</a></td>
                         <td>100</td>
                         <td>3888</td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174034-58977.jpg" height="60" width="60"></td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174034-97960.jpg" height="40" width="40"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174034-58977.jpg" height="60" width="60"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174034-97960.jpg" height="40" width="40"></td>
                         <td>苹果apple</td>
                         <td>2012-10-18 17:40:34</td>
-                        <td><a href="{$smarty.const.__MODULE__}/Goods/update">修改</a></td>
+                        <td><a href="<?php echo @__MODULE__;?>
+/Goods/update">修改</a></td>
                         <td><a href="javascript:;" onclick="delete_product(1)">删除</a></td>
                     </tr>
                     <tr id="product2">
@@ -61,11 +87,14 @@
                         <td><a href="#">苹果（APPLE）iPhone 4</a></td>
                         <td>100</td>
                         <td>3100</td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174248-28718.jpg" height="60" width="60"></td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174248-87501.jpg" height="40" width="40"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174248-28718.jpg" height="60" width="60"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174248-87501.jpg" height="40" width="40"></td>
                         <td>苹果apple</td>
                         <td>2012-10-18 17:42:48</td>
-                        <td><a href="{$smarty.const.__MODULE__}/Goods/update">修改</a></td>
+                        <td><a href="<?php echo @__MODULE__;?>
+/Goods/update">修改</a></td>
                         <td><a href="javascript:;" onclick="delete_product(2)">删除</a></td>
                     </tr>
                     <tr id="product3">
@@ -73,11 +102,14 @@
                         <td><a href="#">苹果（APPLE）iPhone 4 8G版</a></td>
                         <td>100</td>
                         <td>1290</td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174346-31424.jpg" height="60" width="60"></td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174346-54660.jpg" height="40" width="40"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174346-31424.jpg" height="60" width="60"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174346-54660.jpg" height="40" width="40"></td>
                         <td>苹果apple</td>
                         <td>2012-10-18 17:43:46</td>
-                        <td><a href="{$smarty.const.__MODULE__}/Goods/update">修改</a></td>
+                        <td><a href="<?php echo @__MODULE__;?>
+/Goods/update">修改</a></td>
                         <td><a href="javascript:;" onclick="delete_product(3)">删除</a></td>
                     </tr>
                     <tr id="product4">
@@ -85,11 +117,14 @@
                         <td><a href="#">苹果（APPLE）iPhone 4S 16G版</a></td>
                         <td>100</td>
                         <td>987</td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174455-91962.jpg" height="60" width="60"></td>
-                        <td><img src="{$smarty.const.ADMIN_IMG_URL}20121018-174455-10118.jpg" height="40" width="40"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174455-91962.jpg" height="60" width="60"></td>
+                        <td><img src="<?php echo @ADMIN_IMG_URL;?>
+20121018-174455-10118.jpg" height="40" width="40"></td>
                         <td>苹果apple</td>
                         <td>2012-10-18 17:44:30</td>
-                        <td><a href="{$smarty.const.__MODULE__}/Goods/update" >修改</a></td>
+                        <td><a href="<?php echo @__MODULE__;?>
+/Goods/update" >修改</a></td>
                         <td><a href="#" >删除</a></td>
                     </tr>
                     <tr>
@@ -101,4 +136,4 @@
             </table>
         </div>
     </body>
-</html>
+</html><?php }} ?>
