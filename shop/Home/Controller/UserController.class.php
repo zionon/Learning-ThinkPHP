@@ -19,6 +19,27 @@ class UserController extends Controller{
 
 	//注册
 	public function register() {
-		$this->display();
+		// $user = D('User');
+		$user = new \Model\UserModel();
+		//两个逻辑：展示、收集
+		if (!empty($_POST)) {
+			//收集表单、过滤表单信息、非法字段过滤、表单自动验证
+			//并把处理好的信息返回
+			$info = $user->create();
+			//通过create方法的返回值$info判断是否验证成功
+			//1.array实体内容，说明验证成功 2.false则验证失败
+			if ($info) {
+				//把爱好的array数组变为字符串String,"1,2,4"
+				$Info['user_hobby'] = implode(',',$info['user_hobby']);
+				$z = $user->add($info);
+				if ($z) {
+					$this->redirect('Index/index');
+				}
+			} else{
+				//验证失败的错误信息
+				$this->assign('errorinfo',$user->getError());
+			}
+		}
+		$this->display(); 
 	}
 }

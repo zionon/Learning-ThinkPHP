@@ -104,7 +104,8 @@ class GoodsController extends Controller{
 		//两个逻辑：展示表单，收集表单信息
 		if (!empty($_POST)) {
 			//收集表单信息
-			$z = $goods->add($_POST);
+			$info = $goods->create()
+			$z = $goods->add($info);
 			if ($z) {
 				//页面跳转
 				//$this->redirect(分组／控制器／操作方法，参数array，间隔时间，提示信息)

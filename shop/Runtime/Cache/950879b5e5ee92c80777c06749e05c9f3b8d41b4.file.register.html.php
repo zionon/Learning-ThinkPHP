@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 09:51:24
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 15:53:04
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/register.html" */ ?>
 <?php /*%%SmartyHeaderCode:16231186695749639e3591d6-50439937%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '950879b5e5ee92c80777c06749e05c9f3b8d41b4' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/register.html',
-      1 => 1464573080,
+      1 => 1464593640,
       2 => 'file',
     ),
   ),
@@ -17,6 +17,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_5749639e3dec5',
+  'variables' => 
+  array (
+    'errorinfo' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5749639e3dec5')) {function content_5749639e3dec5($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -123,7 +127,8 @@ biao7.gif"></a>
                 <div class="usBox">
                     <div class="usBox_2 clearfix">
                         <div class="logtitle3"></div>
-                        <form id="yw0" action="/index.php?r=user/register" method="post">                <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                        <form id="yw0" action="<?php echo @__SELF__;?>
+" method="post">                <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
                                 <tbody>
                                     <tr>
                                         <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名 
@@ -131,8 +136,9 @@ biao7.gif"></a>
                                         </td>
 
                                         <td style="width:87%;">
-                                            <input class="inputBg" size="25" name="User[username]" id="User_username" type="text" value="" />                  
-                                            <span style="color:red;">用户名已经存在</span>
+                                            <input class="inputBg" size="25" name="username" id="User_username" type="text" value="" />                  
+                                            <span style="color:red;"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['username'])===null||$tmp==='' ? '' : $tmp);?>
+</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -141,46 +147,51 @@ biao7.gif"></a>
                                         </td>
 
                                         <td>
-                                            <input class="inputBg" size="25" name="User[password]" id="User_password" type="password" value="" />         
+                                            <input class="inputBg" size="25" name="password" id="User_password" type="password" value="" /><span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['password'])===null||$tmp==='' ? '' : $tmp);?>
+</span>         
                                         </td>
                                     </tr>
                                     <tr>
                                         <td align="right"><label for="User_password2">密码确认</label></td>
                                         <td>
-                                            <input class="inputBg" size="25" name="User[password2]" id="User_password2" type="password" />
+                                            <input class="inputBg" size="25" name="password2" id="User_password2" type="password" /><span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['password2'])===null||$tmp==='' ? '' : $tmp);?>
+</span>
                                         </td>
 
                                     </tr>
                                     <tr>
                                         <td align="right"><label for="User_user_email">邮箱</label></td>
                                         <td>
-                                            <input class="inputBg" size="25" name="User[user_email]" id="User_user_email" type="text" value="" />    
+                                            <input class="inputBg" size="25" name="user_email" id="User_user_email" type="text" value="" /><span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['user_email'])===null||$tmp==='' ? '' : $tmp);?>
+</span>    
                                         </td>
                                     </tr>
                                     <tr>
 
                                         <td align="right"><label for="User_user_qq">qq号码</label></td>
                                         <td>
-                                            <input class="inputBg" size="25" name="User[user_qq]" id="User_user_qq" type="text" value="" />
+                                            <input class="inputBg" size="25" name="user_qq" id="User_user_qq" type="text" value="" /><span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['user_qq'])===null||$tmp==='' ? '' : $tmp);?>
+</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td align="right"><label for="User_user_tel">手机</label></td>
                                         <td>
-                                            <input class="inputBg" size="25" name="User[user_tel]" id="User_user_tel" type="text" value="" />
+                                            <input class="inputBg" size="25" name="user_tel" id="User_user_tel" type="text" value="" /><span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['user_tel'])===null||$tmp==='' ? '' : $tmp);?>
+</span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <!--radioButtonList($model,$attribute,$data,$htmlOptions=array())-->
                                         <td align="right"><label for="User_user_sex">性别</label></td>
                                         <td>
-                                            <input id="ytUser_user_sex" type="hidden" value="" name="User[user_sex]" />
+                                            <input id="ytUser_user_sex" type="hidden" value="" name="user_sex" />
                                             <span id="User_user_sex">
-                                            <input id="User_user_sex_0" value="1" checked="checked" type="radio" name="User[user_sex]" /> 
+                                            <input id="User_user_sex_0" value="1" checked="checked" type="radio" name="user_sex" /> 
                                             <label for="User_user_sex_0">男</label>&nbsp;
-                                            <input id="User_user_sex_1" value="2" type="radio" name="User[user_sex]" /> 
+                                            <input id="User_user_sex_1" value="2" type="radio" name="user_sex" /> 
                                             <label for="User_user_sex_1">女</label>&nbsp;
-                                            <input id="User_user_sex_2" value="3" type="radio" name="User[user_sex]" /> 
+                                            <input id="User_user_sex_2" value="3" type="radio" name="user_sex" /> 
                                             <label for="User_user_sex_2">保密</label></span>                                
                                         </td>
                                     </tr>
@@ -188,31 +199,35 @@ biao7.gif"></a>
                                         <!--dropDownList($model,$attribute,$data,$htmlOptions=array())-->
                                         <td align="right"><label for="User_user_xueli">学历</label></td>
                                         <td>
-                                            <select name="User[user_xueli]" id="User_user_xueli">
+                                            <select name="user_xueli" id="User_user_xueli">
                                                 <option value="1" selected="selected">-请选择-</option>
                                                 <option value="2">小学</option>
 
                                                 <option value="3">初中</option>
                                                 <option value="4">高中</option>
                                                 <option value="5">大学</option>
-                                            </select>                                <div class="errorMessage" id="User_user_xueli_em_" style="display:none"></div>                            </td>
+                                            </select><span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['user_xueli'])===null||$tmp==='' ? '' : $tmp);?>
+</span>                                
+                                            <div class="errorMessage" id="User_user_xueli_em_" style="display:none"></div>                            
+                                        </td>
                                     </tr>
                                     <tr>
                                         <!--checkBoxList($model,$attribute,$data,$htmlOptions=array())-->
                                         <td align="right"><label for="User_user_hobby">爱好</label></td>
 
                                         <td>
-                                            <input id="ytUser_user_hobby" type="hidden" value="" name="User[user_hobby]" />
                                             <span id="User_user_hobby">
-                                            <input id="User_user_hobby_0" value="1" type="checkbox" name="User[user_hobby][]" /> 
+                                            <input id="User_user_hobby_0" value="1" type="checkbox" name="user_hobby[]" /> 
                                             <label for="User_user_hobby_0">篮球</label>&nbsp;
-                                            <input id="User_user_hobby_1" value="2" type="checkbox" name="User[user_hobby][]" /> 
+                                            <input id="User_user_hobby_1" value="2" type="checkbox" name="user_hobby[]" /> 
                                             <label for="User_user_hobby_1">足球</label>&nbsp;
-                                            <input id="User_user_hobby_2" value="3" type="checkbox" name="User[user_hobby][]" /> 
+                                            <input id="User_user_hobby_2" value="3" type="checkbox" name="user_hobby[]" /> 
                                             <label for="User_user_hobby_2">排球</label>&nbsp;
-                                            <input id="User_user_hobby_3" value="4" type="checkbox" name="User[user_hobby][]" /> 
+                                            <input id="User_user_hobby_3" value="4" type="checkbox" name="user_hobby[]" /> 
                                             <label for="User_user_hobby_3">棒球</label>
-                                            </span>                                
+                                            </span>
+                                            <span style="color: red"><?php echo (($tmp = @$_smarty_tpl->tpl_vars['errorinfo']->value['user_hobby'])===null||$tmp==='' ? '' : $tmp);?>
+</span>                                
                                         </td>
                                     </tr>
                                     <tr>
@@ -220,14 +235,14 @@ biao7.gif"></a>
                                         <!--textArea($model,$attribute,$htmlOptions=array())-->
                                         <td align="right"><label for="User_user_introduce">简介</label></td>
                                         <td>
-                                            <textarea cols="50" rows="5" name="User[user_introduce]" id="User_user_introduce"></textarea>                      
+                                            <textarea cols="50" rows="5" name="user_introduce" id="User_user_introduce"></textarea>                      
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
 
                                         <td align="left">
-                                            <input name="Submit" value="" class="us_Submit_reg" type="submit" />
+                                            <input value="" class="us_Submit_reg" type="submit" />
                                         </td>
                                     </tr>
                                     <tr>
