@@ -463,3 +463,117 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
+[ 2016-05-31T21:32:48+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Index/head.html
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-31T21:33:07+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2016-05-31T21:33:09+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Goods/search
+ERR: 非法操作:search
+
+[ 2016-05-31T21:33:11+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/show
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T21:33:12+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T21:33:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:33:36+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/User/comment
+ERR: 无法加载控制器:User
+
+[ 2016-05-31T21:33:41+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:33:42+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:33:45+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:33:46+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:33:50+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:33:58+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:34:18+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Role/add
+ERR: 非法操作:add
+
+[ 2016-05-31T21:34:42+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T21:34:53+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Role/add
+ERR: 非法操作:add
+
+[ 2016-05-31T21:36:55+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Role/add
+ERR: 非法操作:add
+
+[ 2016-05-31T22:31:57+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/show
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T22:31:58+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/show
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T22:31:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T22:31:59+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T22:32:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Order/search
+ERR: 无法加载控制器:Order
+
+[ 2016-05-31T22:32:00+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T22:32:01+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T22:34:13+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Index/head.html
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-31T22:34:31+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Role/add
+ERR: 非法操作:add
+
+[ 2016-05-31T22:35:20+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T22:42:15+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Index/head.html
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-31T22:42:18+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+
+[ 2016-05-31T22:42:21+08:00 ] 127.0.0.1 /Learning-ThinkPHP/shop/index.php/Admin/Manager/show
+ERR: 非法操作:show
+

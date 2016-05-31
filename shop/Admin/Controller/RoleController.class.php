@@ -44,5 +44,9 @@ class RoleController extends AdminController{
 			$this->display();	
 
 		}
+	}
+	//添加角色
+	public function add() {
+		$this->redirect('show',array(),2,'添加成功');
 	}	
 }
