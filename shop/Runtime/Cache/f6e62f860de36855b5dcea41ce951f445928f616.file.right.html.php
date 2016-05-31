@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 11:23:45
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 13:17:25
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Index/right.html" */ ?>
 <?php /*%%SmartyHeaderCode:2002637686574b9dbdb93b22-60413259%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f6e62f860de36855b5dcea41ce951f445928f616' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Index/right.html',
-      1 => 1464576067,
+      1 => 1464671843,
       2 => 'file',
     ),
   ),
@@ -48,7 +48,8 @@ admin_p.gif"
                         <tr>
                             <td>当前时间：2008-12-27 17:03:55</td></tr>
                         <tr>
-                            <td style="font-weight: bold; font-size: 16px">admin</td></tr>
+                            <td style="font-weight: bold; font-size: 16px"><?php echo $_SESSION['admin_name'];?>
+</td></tr>
                         <tr>
                             <td>欢迎进入网站管理中心！</td></tr></table></td></tr>
             <tr>
@@ -67,7 +68,8 @@ title_bg2.jpg>您的相关信息</td></tr>
         <table cellspacing=0 cellpadding=2 width="95%" align=center border=0>
             <tr>
                 <td align=right width=100>登陆帐号：</td>
-                <td style="color: #880000">admin</td></tr>
+                <td style="color: #880000"><?php echo $_SESSION['admin_name'];?>
+</td></tr>
             <tr>
                 <td align=right>真实姓名：</td>
                 <td style="color: #880000">admin</td></tr>
