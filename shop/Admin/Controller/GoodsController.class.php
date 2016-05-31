@@ -2,9 +2,10 @@
 //后台商品控制器
 //命名空间
 namespace Admin\Controller;
-use Think\Controller;
+// use Think\Controller;
+use Tools\AdminController;
 
-class GoodsController extends Controller{
+class GoodsController extends AdminController{
 	//学习查询
 	public function testSelect() {
 		// $goods = D('Goods');

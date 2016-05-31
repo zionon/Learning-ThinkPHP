@@ -2,9 +2,10 @@
 //后台角色控制器
 //命名空间
 namespace Admin\Controller;
-use Think\Controller;
+// use Think\Controller;
+use Tools\AdminController;
 
-class RoleController extends Controller{
+class RoleController extends AdminController{
 	//列表展示
 	public function show() {
 		//获得全部角色数据
