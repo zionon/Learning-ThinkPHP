@@ -15,12 +15,28 @@ class ManagerController extends Controller{
 			//验证码的校验
 			$vry = new \Think\Verify();
 			if ($vry->check($_POST['captcha'])) {
-				echo '验证码正确';
+				//验证"用户名和密码",$_POST['admin_user'] $_POST['admin_psd']
+				$manager = new \Model\ManagerModel();
+				$info = $manager->checkNamePwd($_POST['admin_user'], $_POST['admin_psd']);
+				if ($info) {
+					//给用户信息session持久化操作(名字和id)
+					session('admin_id',$info['mg_id']);
+					session('admin_name',$info['mg_name']);
+					//页面跳转到后台首页
+					$this->redirect('Index/index');
+				} else {
+					$this->redirect('login',array(),2,'用户名或密码错误');
+				}
 			} else {
-				echo '验证码错误';
+				$this->redirect('login',array(),2,'验证码错误');
 			}
 		} 
 		$this->display();
+	}
+
+	public function logout() {
+		session(null);
+		$this->redirect('login');
 	}
 
 	//输出验证码

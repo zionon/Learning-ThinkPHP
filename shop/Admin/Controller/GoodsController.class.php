@@ -85,6 +85,7 @@ class GoodsController extends Controller{
 	//列表展示
 	public function show() {
 		$goods = new \Model\GoodsModel();
+		// $goods = D('Goods');
 		//$info = $goods->select();		//SELECT * FROM sw_goods;
 		// $this->display();
 		// $obj = D('User');
@@ -92,9 +93,20 @@ class GoodsController extends Controller{
 		//$info = $goods->select(17);		//SELECT * FROM `sw_goods` WHERE `goods_id` = 17
 		//$info = $goods->select("21,24,29,30");	//SELECT * FROM `sw_goods` WHERE `goods_id` IN ('21','24','29','30')
 		// dump($info);
-		$info = $goods->order('goods_id desc')->limit(0,3)->select();
+		// $info = $goods->order('goods_id desc')->limit(0,3)->select();
+		//1.获得数据的总记录条数
+		$total = $goods->count();
+		$per = 7;
+		//2.实例化分页类对象
+		$page_obj = new \Tools\Page($total, $per);
+		//3.拼装sql语句获得每页信息
+		$sql = "SELECT * FROM sw_goods ORDER BY goods_id ".$page_obj->limit;
+		$info = $goods->query($sql);
+		//3.获得页码列表
+		$pagelist = $page_obj->fpage(array(3,4,5,6,7,8));
 		//以下两个方法直接被定义到了父类Controller里边
 		//它们都是对smarty相关方法的封装
+		$this->assign('pagelist',$pagelist);
 		$this->assign('info',$info);
 		$this->display();
 	}
