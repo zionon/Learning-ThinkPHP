@@ -100,7 +100,7 @@ class GoodsController extends Controller{
 		//2.实例化分页类对象
 		$page_obj = new \Tools\Page($total, $per);
 		//3.拼装sql语句获得每页信息
-		$sql = "SELECT * FROM sw_goods ORDER BY goods_id ".$page_obj->limit;
+		$sql = "SELECT * FROM sw_goods ORDER BY goods_id DESC ".$page_obj->limit;
 		$info = $goods->query($sql);
 		//3.获得页码列表
 		$pagelist = $page_obj->fpage(array(3,4,5,6,7,8));

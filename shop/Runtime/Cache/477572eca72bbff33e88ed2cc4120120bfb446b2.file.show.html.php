@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 09:57:33
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 13:18:58
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/show.html" */ ?>
 <?php /*%%SmartyHeaderCode:261933212574b9e22f306e7-94510093%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '477572eca72bbff33e88ed2cc4120120bfb446b2' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/show.html',
-      1 => 1464659793,
+      1 => 1464671935,
       2 => 'file',
     ),
   ),
@@ -73,6 +73,7 @@ mine.css" type="text/css" rel="stylesheet" />
                         <td>品牌</td>
                         <td>创建时间</td>
                         <td align="center">操作</td>
+                        <td>删除</td>
                     </tr>
                     <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
  $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
