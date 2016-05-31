@@ -13,4 +13,25 @@ class AuthController extends Controller{
 		$this->assign('info',$info);
 		$this->display();
 	}
+
+	//添加权限
+	public function add() {
+		//两个逻辑：展示、收集
+		$auth = new \Model\AuthModel();
+		if (!empty($_POST)) {
+			//表单只收集到了4个信息，另外两个字段(path/level)需要计算
+			//在savedata方法里边实现path/level的制作，并最终完善整条纪录信息
+			$z = $auth->saveData($_POST);
+			if ($z) {
+				$this->redirect('show',array(),2,'添加权限成功');
+			} else {
+				$this->redirect('add',array(),2,'添加权限失败');
+			}
+		} else {
+			//获得被选取的上级权限
+			$auth_infoA = $auth->where('auth_level=0')->select();
+			$this->assign('auth_infoA',$auth_infoA);
+			$this->display();
+		}
+	}
 }
