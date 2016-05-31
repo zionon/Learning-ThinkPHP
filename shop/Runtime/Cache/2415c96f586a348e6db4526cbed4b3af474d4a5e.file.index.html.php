@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-29 21:34:46
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 18:35:21
          compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Home/View\Index\index.html" */ ?>
 <?php /*%%SmartyHeaderCode:16016574aeff6df9ba8-80870752%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2415c96f586a348e6db4526cbed4b3af474d4a5e' => 
     array (
       0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Home/View\\Index\\index.html',
-      1 => 1464517226,
+      1 => 1464619830,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_574aeff71e406',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_574aeff71e406')) {function content_574aeff71e406($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

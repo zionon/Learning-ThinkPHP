@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 21:11:49
+<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 18:40:49
          compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\Goods\show.html" */ ?>
 <?php /*%%SmartyHeaderCode:1147574c3c15650428-49313187%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '980591b8ad93989ff26290c7a48de326b9949fe9' => 
     array (
       0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\Goods\\show.html',
-      1 => 1464612978,
+      1 => 1464690762,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_574c3c15759e6',
   'variables' => 
   array (
     'info' => 0,
     'v' => 0,
+    'pagelist' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_574c3c15759e6',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_574c3c15759e6')) {function content_574c3c15759e6($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'F:\\xampp\\htdocs\\Learning-ThinkPHP\\ThinkPHP\\Library\\Vendor\\Smarty\\plugins\\modifier.date_format.php';
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -72,6 +73,7 @@ mine.css" type="text/css" rel="stylesheet" />
                         <td>品牌</td>
                         <td>创建时间</td>
                         <td align="center">操作</td>
+                        <td>删除</td>
                     </tr>
                     <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
  $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
@@ -112,7 +114,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                     <?php } ?>
                     <tr>
                         <td colspan="20" style="text-align: center;">
-                            [1]
+                            <?php echo $_smarty_tpl->tpl_vars['pagelist']->value;?>
+
                         </td>
                     </tr>
                 </tbody>
