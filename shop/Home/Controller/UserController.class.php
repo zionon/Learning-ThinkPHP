@@ -40,6 +40,8 @@ class UserController extends Controller{
 		if (!empty($_POST)) {
 			//收集表单、过滤表单信息、非法字段过滤、表单自动验证
 			//并把处理好的信息返回
+			$_POST['password'] = md5($_POST['password']);
+			$_POST['password2'] = md5($_POST['password2']);
 			$info = $user->create();
 			//通过create方法的返回值$info判断是否验证成功
 			//1.array实体内容，说明验证成功 2.false则验证失败
@@ -48,7 +50,7 @@ class UserController extends Controller{
 				$Info['user_hobby'] = implode(',',$info['user_hobby']);
 				$z = $user->add($info);
 				if ($z) {
-					$this->redirect('Index/index');
+					$this->redirect('Index/index',array(),2,'恭喜您，注册成功！');
 				}
 			} else{
 				//验证失败的错误信息
