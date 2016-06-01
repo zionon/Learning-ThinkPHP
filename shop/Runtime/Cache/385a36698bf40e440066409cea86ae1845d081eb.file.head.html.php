@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 21:43:34
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 23:08:41
          compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\Index\head.html" */ ?>
 <?php /*%%SmartyHeaderCode:3260574d6904670b68-48054262%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '385a36698bf40e440066409cea86ae1845d081eb' => 
     array (
       0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\Index\\head.html',
-      1 => 1464785871,
+      1 => 1464793718,
       2 => 'file',
     ),
   ),
@@ -31,8 +31,9 @@ admin.css" type="text/css" rel="stylesheet" />
                background="<?php echo @ADMIN_IMG_URL;?>
 header_bg.jpg" border=0>
             <tr height=56>
-                <td width=260><img height=56 src="<?php echo @ADMIN_IMG_URL;?>
-header_left.jpg" width=260>
+                <td width=260><a href="<?php echo @__MODULE__;?>
+/Index/right" target="right"><img height=56 src="<?php echo @ADMIN_IMG_URL;?>
+header_left.jpg" width=260 /></a>
                 </td>
                 <td style="font-weight: bold; color: #fff; padding-top: 20px" 
                     align=middle>当前用户：<?php echo $_SESSION['admin_name'];?>
@@ -40,7 +41,7 @@ header_left.jpg" width=260>
 /Manager/updatePwd/mg_id/<?php echo $_SESSION['admin_id'];?>
 " target=right>修改口令</a> &nbsp;&nbsp; <a style="color: #fff"onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
                     href="<?php echo @__MODULE__;?>
-/Manager/logout" target=_top>退出系统</a> 
+/Manager/logout" target=_top />退出系统</a> 
                 </td>
                 <td align=right width=268><img height=56 src="<?php echo @ADMIN_IMG_URL;?>
 header_right.jpg" width=268>
