@@ -53,4 +53,44 @@ class ManagerController extends AdminController{
 		$very = new \Think\Verify($cfg);	//完全限定名称方式 元素访问
 		$very->entry();
 	}
+
+	//修改密码
+	public function updatePwd($mg_id) {
+		//两个逻辑：展示，修改
+		$manager = new \Model\ManagerModel();
+		if (!empty($_POST)) {
+			if ($_POST['new_pwd_1'] == $_POST['new_pwd_2']) {
+				$z = $manager->checkPwd($mg_id,$_POST['mg_pwd']);
+				if ($z) {
+					$z = $manager->updatePwd($mg_id,$_POST['new_pwd_1']);
+					if ($z) {
+						$this->redirect('Index/right',array(),2,'密码修改成功');
+					} else {
+						$this->redirect('updatePwd',array('mg_id'=>$mg_id),2,'密码修改失败');
+					}
+				} else {
+					$this->redirect('updatePwd',array('mg_id'=>$mg_id),2,'输入的原密码错误');
+				}
+			} else {
+				$this->redirect('updatePwd',array('mg_id'=>$mg_id),2,'两次输入的新密码不相同，请重新输入');
+			}
+		} else {
+			$this->display();
+		}
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

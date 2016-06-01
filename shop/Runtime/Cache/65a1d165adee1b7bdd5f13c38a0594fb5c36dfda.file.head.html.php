@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 13:55:45
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 11:09:32
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Index/head.html" */ ?>
 <?php /*%%SmartyHeaderCode:266573312574b9dbdc38209-30036656%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '65a1d165adee1b7bdd5f13c38a0594fb5c36dfda' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Index/head.html',
-      1 => 1464672163,
+      1 => 1464750567,
       2 => 'file',
     ),
   ),
@@ -36,7 +36,9 @@ header_left.jpg" width=260>
                 </td>
                 <td style="font-weight: bold; color: #fff; padding-top: 20px" 
                     align=middle>当前用户：<?php echo $_SESSION['admin_name'];?>
- &nbsp;&nbsp; <a style="color: #fff" href="" target=main>修改口令</a> &nbsp;&nbsp; <a style="color: #fff"onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
+ &nbsp;&nbsp; <a style="color: #fff" href="<?php echo @__MODULE__;?>
+/Manager/updatePwd/mg_id/<?php echo $_SESSION['admin_id'];?>
+" target=right>修改口令</a> &nbsp;&nbsp; <a style="color: #fff"onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
                     href="<?php echo @__MODULE__;?>
 /Manager/logout" target=_top>退出系统</a> 
                 </td>

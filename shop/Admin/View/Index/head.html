@@ -11,7 +11,7 @@
                 <td width=260><img height=56 src="{$smarty.const.ADMIN_IMG_URL}header_left.jpg" width=260>
                 </td>
                 <td style="font-weight: bold; color: #fff; padding-top: 20px" 
-                    align=middle>当前用户：{$smarty.session.admin_name} &nbsp;&nbsp; <a style="color: #fff" href="" target=main>修改口令</a> &nbsp;&nbsp; <a style="color: #fff"onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
+                    align=middle>当前用户：{$smarty.session.admin_name} &nbsp;&nbsp; <a style="color: #fff" href="{$smarty.const.__MODULE__}/Manager/updatePwd/mg_id/{$smarty.session.admin_id}" target=right>修改口令</a> &nbsp;&nbsp; <a style="color: #fff"onclick="if (confirm('确定要退出吗？')) return true; else return false;" 
                     href="{$smarty.const.__MODULE__}/Manager/logout" target=_top>退出系统</a> 
                 </td>
                 <td align=right width=268><img height=56 src="{$smarty.const.ADMIN_IMG_URL}header_right.jpg" width=268>
