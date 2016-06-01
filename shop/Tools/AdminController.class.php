@@ -46,25 +46,10 @@ eof;
 		$allow_ac = "Manager-login,Manager-logout,Manager-verifyImg";
 		//3.当前用户还不是超级管理员admin
 		//以上1，2，3条件同时满足，就没有访问权限
-		if (strpos($auth_ac,$nowac)===false && strpos($allow_ac,$nowac)===false && $admin_name!=='admin') {
+		if (strpos($auth_ac,$nowac)===false && strpos($allow_ac,$nowac)===false && $admin_name!==$admin_info['mg_name']) {
 			// dump(MODULE_PATH);
 			// exit('没有权限访问！！！');
 			$this->redirect('Manager/login',array(),2,'没有权限访问,请先登录!!!');
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

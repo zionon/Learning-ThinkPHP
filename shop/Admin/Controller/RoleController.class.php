@@ -47,6 +47,35 @@ class RoleController extends AdminController{
 	}
 	//添加角色
 	public function add() {
-		$this->redirect('show',array(),2,'添加成功');
+		//两个逻辑：展示、收集
+		$role = new \Model\RoleModel();
+		if (!empty($_POST)) {
+			$z = $role->addRole(($_POST['role_name']),$_POST['role_auth_ids']);
+			if ($z) {
+				$this->redirect('show',array(),2,'添加角色成功');
+			} else {
+				$this->redirect('add',array(),2,'添加角色失败');
+			}
+		} else {
+			//获得所有权限并展示
+			$auth_infoA = D('Auth')->where('auth_level=0')->select();
+			$auth_infoB = D('Auth')->where('auth_level=1')->select();
+
+			$this->assign('auth_infoA',$auth_infoA);
+			$this->assign('auth_infoB',$auth_infoB);
+			$this->display();
+		}
 	}	
 }
+
+
+
+
+
+
+
+
+
+
+
+
