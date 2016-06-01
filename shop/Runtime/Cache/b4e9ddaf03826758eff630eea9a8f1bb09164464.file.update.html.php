@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 21:20:38
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 21:50:37
          compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\Goods\update.html" */ ?>
 <?php /*%%SmartyHeaderCode:10317574c3e269dde53-16156769%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b4e9ddaf03826758eff630eea9a8f1bb09164464' => 
     array (
       0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\Goods\\update.html',
-      1 => 1464612978,
+      1 => 1464619830,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_574c3e26b6873',
   'variables' => 
   array (
     'info' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_574c3e26b6873',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_574c3e26b6873')) {function content_574c3e26b6873($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
