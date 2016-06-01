@@ -41,4 +41,27 @@ class UserModel extends Model{
 		return true;
 	}
 
+	//检查登录用户名和密码
+	public function checkNamePwd($username,$password) {
+		//根据用户名查询整条记录
+		$z = $this->where("username='$username'")->find();
+		if ($z) {
+			if ($z['password'] == $password) {
+				return $z;
+			}
+		}
+		return null;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

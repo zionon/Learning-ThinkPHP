@@ -12,9 +12,24 @@ class UserController extends Controller{
 	public function login() {
 		//调用模版视图
 		//display(),其是父类Controller的方法
-		$this->display(); 	//1.视图模版名称与当前操作方法名称一致
+		// $this->display(); 	//1.视图模版名称与当前操作方法名称一致
 		// $this->display('register');		//2.调用当前User视图模版下的其他模版文件
 		// $this->display('Goods/showlist');	//3.访问其他控制器下的模版文件
+		//两个逻辑：展示、收集
+		if (!empty($_POST)) {
+			$user = new \Model\UserModel();
+			$info = $user->checkNamePwd($_POST['username'],$_POST['password']);
+			if ($info) {
+				//给用户信息session持久化操作
+				session('user_id',$info['user_id']);
+				session('user_name',$info['username']);
+				$this->redirect('ucenter1');
+			} else {
+				$this->redirect('login',array(),2,'用户名或者密码错误');
+			}
+		} else {
+			$this->display();
+		}
 	}
 
 	//注册
@@ -42,4 +57,25 @@ class UserController extends Controller{
 		}
 		$this->display(); 
 	}
+
+	//登出
+	public function logout() {
+		session(null);
+		$this->redirect('Index/index');
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

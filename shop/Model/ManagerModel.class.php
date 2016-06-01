@@ -39,13 +39,3 @@ class  ManagerModel extends Model{
 	}
 
 }
-
-
-
-
-
-
-
-
-
-

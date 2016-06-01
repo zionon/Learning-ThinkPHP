@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 15:59:35
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 13:27:38
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/login.html" */ ?>
 <?php /*%%SmartyHeaderCode:181500927057496397bd1f83-81348836%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8aa37402b76f835db423b2f6192c437c25ec63cb' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Home/View/User/login.html',
-      1 => 1464576067,
+      1 => 1464758857,
       2 => 'file',
     ),
   ),
@@ -121,7 +121,8 @@ biao7.gif"></a>
             <div class="usBox clearfix">
                 <div class="usBox_1 f_l">
                     <div class="logtitle"></div>
-                    <form name="formLogin" action="#" method="post">
+                    <form name="formLogin" action="<?php echo @__SELF__;?>
+" method="post">
                         <table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">
                             <tbody><tr>
                                     <td align="right" width="15%">用户名</td>
@@ -137,12 +138,13 @@ biao7.gif"></a>
                                     <td colspan="2"><input value="1" name="remember" id="remember" type="checkbox" />
                                         <label for="remember">请保存我这次的登录信息。</label></td>
                                 </tr>
+
                                 <tr>
                                     <td>&nbsp;</td>
                                     <td align="left">
-                                        <input name="act" value="act_login" type="hidden" />
-                                        <input name="back_act" value="./index.php" type="hidden" />
-                                        <input name="submit" value="" class="us_Submit" type="submit" />
+                                        <!-- <input name="act" value="act_login" type="hidden" />
+                                        <input name="back_act" value="./index.php" type="hidden" /> -->
+                                        <input value="" class="us_Submit" type="submit" />
                                     </td>
                                 </tr>
                                 <tr><td></td><td><a href="#" class="f3">密码问题找回密码</a>&nbsp;&nbsp;&nbsp;<a href="#" class="f3">注册邮件找回密码</a></td></tr>
