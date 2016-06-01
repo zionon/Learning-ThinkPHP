@@ -25,6 +25,7 @@ class AuthController extends AdminController{
 			$z = $auth->saveData($_POST);
 			if ($z) {
 				$this->redirect('show',array(),2,'添加权限成功');
+				$this->redirect('Index/left');
 			} else {
 				$this->redirect('add',array(),2,'添加权限失败');
 			}

@@ -9,7 +9,22 @@ class UserController extends AdminController{
 	public function show() {
 		$user = new \Model\UserModel();
 		$info = $user->field('user_id,username,user_email,user_qq,user_tel,user_xueli,user_time,last_time')->select();
-
+		for ($i=0; $i < count($info); $i++) { 
+			switch ($info[$i]['user_xueli']) {
+				case '2':
+					$info[$i]['user_xueli'] = '小学';
+					break;
+				case '3':
+					$info[$i]['user_xueli'] = '初中';
+					break;
+				case '4':
+					$info[$i]['user_xueli'] = '高中';
+					break;
+				case '5':
+					$info[$i]['user_xueli'] = '大学';
+					break;
+			}
+		}
 		$this->assign('info',$info);
 		$this->display();
 	}

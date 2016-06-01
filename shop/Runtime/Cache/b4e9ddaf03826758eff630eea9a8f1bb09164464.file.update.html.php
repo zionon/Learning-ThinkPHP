@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 21:50:37
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 21:53:38
          compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\Goods\update.html" */ ?>
 <?php /*%%SmartyHeaderCode:10317574c3e269dde53-16156769%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b4e9ddaf03826758eff630eea9a8f1bb09164464' => 
     array (
       0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\Goods\\update.html',
-      1 => 1464619830,
+      1 => 1464789185,
       2 => 'file',
     ),
   ),
@@ -38,7 +38,8 @@ mine.css" type="text/css" rel="stylesheet">
             <span>
                 <span style="float:left">当前位置是：商品管理-》修改商品信息</span>
                 <span style="float:right;margin-right: 8px;font-weight: bold">
-                    <a style="text-decoration: none" href="./admin.php?c=goods&a=showlist">【返回】</a>
+                    <a style="text-decoration: none" href="<?php echo @__CONTROLLER__;?>
+/show">【返回】</a>
                 </span>
             </span>
         </div>

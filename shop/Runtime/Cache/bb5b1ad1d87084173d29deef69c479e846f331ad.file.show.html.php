@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 21:33:18
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 21:59:55
          compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\Auth\show.html" */ ?>
 <?php /*%%SmartyHeaderCode:28239574d929e9a79a3-90413673%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bb5b1ad1d87084173d29deef69c479e846f331ad' => 
     array (
       0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\Auth\\show.html',
-      1 => 1464690762,
+      1 => 1464785871,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_574d929ea825d',
   'variables' => 
   array (
     'info' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pagelist' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_574d929ea825d',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_574d929ea825d')) {function content_574d929ea825d($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
@@ -100,7 +100,9 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <td><?php echo $_smarty_tpl->tpl_vars['v']->value['auth_level'];?>
 </td>
                         <td><a href="">修改</a></td>
-                        <td><a href="">删除</a></td>
+                        <td><a href="<?php echo @__CONTROLLER__;?>
+/delete/auth_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['auth_id'];?>
+">删除</a></td>
                     </tr>
                     <?php } ?>
                     <tr>

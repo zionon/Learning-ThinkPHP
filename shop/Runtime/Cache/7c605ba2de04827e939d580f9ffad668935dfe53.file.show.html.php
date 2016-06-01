@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 21:59:54
-         compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\Role\show.html" */ ?>
-<?php /*%%SmartyHeaderCode:12462574d929c847d31-75342545%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 22:03:14
+         compiled from "F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\User\show.html" */ ?>
+<?php /*%%SmartyHeaderCode:7380574eeb220404e2-49978560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'c505adf4feb7b7bd08f4c27a06d7db941dfd9f83' => 
+    '7c605ba2de04827e939d580f9ffad668935dfe53' => 
     array (
-      0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\Role\\show.html',
+      0 => 'F:/xampp/htdocs/Learning-ThinkPHP/shop/Admin/View\\User\\show.html',
       1 => 1464785871,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12462574d929c847d31-75342545',
+  'nocache_hash' => '7380574eeb220404e2-49978560',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.6',
-  'unifunc' => 'content_574d929c8f3b5',
   'variables' => 
   array (
     'info' => 0,
@@ -24,13 +22,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pagelist' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_574eeb22103a1',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574d929c8f3b5')) {function content_574d929c8f3b5($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php if ($_valid && !is_callable('content_574eeb22103a1')) {function content_574eeb22103a1($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-        <title>会员列表</title>
+        <title>用户列表</title>
 
         <link href="<?php echo @ADMIN_CSS_URL;?>
 mine.css" type="text/css" rel="stylesheet" />
@@ -41,15 +41,15 @@ mine.css" type="text/css" rel="stylesheet" />
         </style>
         <div class="div_head">
             <span>
-                <span style="float: left;">当前位置是：角色管理-》角色列表</span>
+                <span style="float: left;">当前位置是：会员管理-》会员列表</span>
                 <span style="float: right; margin-right: 8px; font-weight: bold;">
                     <a style="text-decoration: none;" href="<?php echo @__CONTROLLER__;?>
-/add">【添加角色】</a>
+/add">【添加会员】</a>
                 </span>
             </span>
         </div>
         <div></div>
-        <div class="div_search">
+<!--         <div class="div_search">
             <span>
                 <form action="#" method="get">
                     品牌<select name="s_product_mark" style="width: 100px;">
@@ -59,13 +59,18 @@ mine.css" type="text/css" rel="stylesheet" />
                     <input value="查询" type="submit" />
                 </form>
             </span>
-        </div>
+        </div> -->
         <div style="font-size: 13px; margin: 10px 5px;">
             <table class="table_a" border="1" width="100%">
                 <tbody><tr style="font-weight: bold;">
-                        <td>序号</td>
-                        <td>角色名称</td>
-                        <td align="center">操作</td>
+                        <td>注册ID</td>
+                        <td>用户名</td>
+                        <td>邮箱</td>
+                        <td>QQ</td>
+                        <td>电话</td>
+                        <td>学历</td>
+                        <td>注册时间</td>
+                        <td>最后一次登录时间</td>
                         <td>修改</td>
                         <td>删除</td>
                     </tr>
@@ -79,17 +84,29 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
  $_smarty_tpl->tpl_vars['v']->iteration++;
 ?>
                     <tr id="product1">
-                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['role_id'];?>
-----<?php echo $_smarty_tpl->tpl_vars['v']->iteration;?>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['user_id'];?>
+--<?php echo $_smarty_tpl->tpl_vars['v']->iteration;?>
 </td>
-                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['role_name'];?>
+                        <!--根据权限的等级，显示对应的缩进符号-->
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['username'];?>
+</td>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['user_email'];?>
+</td>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['user_qq'];?>
+</td>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['user_tel'];?>
+</td>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['user_xueli'];?>
+</td>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['user_time'];?>
+</td>
+                        <td><?php echo $_smarty_tpl->tpl_vars['v']->value['last_time'];?>
 </td>
                         <td><a href="<?php echo @__CONTROLLER__;?>
-/fenpei/role_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['role_id'];?>
-">分配权限</a></td>
-                        <td><a href="">修改</a></td>
+/update/user_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['user_id'];?>
+">修改</a></td>
                         <td><a href="<?php echo @__CONTROLLER__;?>
-/delete/role_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['role_id'];?>
+/delete/user_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['user_id'];?>
 ">删除</a></td>
                     </tr>
                     <?php } ?>
