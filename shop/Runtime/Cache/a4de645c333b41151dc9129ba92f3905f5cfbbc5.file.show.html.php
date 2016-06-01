@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-31 15:54:05
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 10:49:57
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Auth/show.html" */ ?>
 <?php /*%%SmartyHeaderCode:707330925574d3ceb37ceb7-27622824%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a4de645c333b41151dc9129ba92f3905f5cfbbc5' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Auth/show.html',
-      1 => 1464680198,
+      1 => 1464749391,
       2 => 'file',
     ),
   ),
@@ -100,7 +100,9 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                         <td><?php echo $_smarty_tpl->tpl_vars['v']->value['auth_level'];?>
 </td>
                         <td><a href="">修改</a></td>
-                        <td><a href="">删除</a></td>
+                        <td><a href="<?php echo @__CONTROLLER__;?>
+/delete/auth_id/<?php echo $_smarty_tpl->tpl_vars['v']->value['auth_id'];?>
+">删除</a></td>
                     </tr>
                     <?php } ?>
                     <tr>

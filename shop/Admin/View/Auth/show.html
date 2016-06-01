@@ -55,7 +55,7 @@
                         <td>{$v.auth_path}</td>
                         <td>{$v.auth_level}</td>
                         <td><a href="">修改</a></td>
-                        <td><a href="">删除</a></td>
+                        <td><a href="{$smarty.const.__CONTROLLER__}/delete/auth_id/{$v.auth_id}">删除</a></td>
                     </tr>
                     {/foreach}
                     <tr>

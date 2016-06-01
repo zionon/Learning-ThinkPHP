@@ -46,7 +46,7 @@
                         <td>{$v.role_name}</td>
                         <td><a href="{$smarty.const.__CONTROLLER__}/fenpei/role_id/{$v.role_id}">分配权限</a></td>
                         <td><a href="">修改</a></td>
-                        <td><a href="">删除</a></td>
+                        <td><a href="{$smarty.const.__CONTROLLER__}/delete/role_id/{$v.role_id}">删除</a></td>
                     </tr>
                     {/foreach}
                     <tr>

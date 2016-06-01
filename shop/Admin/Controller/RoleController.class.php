@@ -65,6 +65,16 @@ class RoleController extends AdminController{
 			$this->assign('auth_infoB',$auth_infoB);
 			$this->display();
 		}
+	}
+	//删除角色功能
+	public function delete($role_id) {
+		$role = D('Role');
+		$z = $role->delete($role_id);
+		if ($z) {
+			$this->redirect('show',array(),2,'删除成功');
+		} else {
+			$this->redirect('show',array('role_id'=>$role_id),2,'删除失败！！！！');
+		}
 	}	
 }
 

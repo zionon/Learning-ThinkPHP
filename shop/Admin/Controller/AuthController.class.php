@@ -35,4 +35,14 @@ class AuthController extends AdminController{
 			$this->display();
 		}
 	}
+	//删除权限
+	public function delete($auth_id) {
+		$auth = D('Auth');
+		$z = $auth->delete($auth_id);
+		if ($z) {
+			$this->redirect('show',array(),2,'删除权限成功！！');
+		} else {
+			$this->redirect('show',array('auth_id'=>$auth_id),2,'删除权限失败！！！');
+		}
+	}
 }
