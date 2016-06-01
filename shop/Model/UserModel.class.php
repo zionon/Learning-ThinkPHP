@@ -46,7 +46,7 @@ class UserModel extends Model{
 		//根据用户名查询整条记录
 		$z = $this->where("username='$username'")->find();
 		if ($z) {
-			if ($z['password'] == $password) {
+			if ($z['password'] == md5($password)) {
 				return $z;
 			}
 		}
