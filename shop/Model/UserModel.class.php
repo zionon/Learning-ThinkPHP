@@ -52,6 +52,11 @@ class UserModel extends Model{
 		}
 		return null;
 	}
+
+	//修改用户信息
+	public function update($user_id,$users) {
+		//先把收集到数组转字符串
+	}
 }
 
 

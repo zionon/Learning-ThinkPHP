@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>用户列表</title>
+
+        <link href="{$smarty.const.ADMIN_CSS_URL}mine.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <style>
+            .tr_color{ background-color: #9F88FF }
+        </style>
+        <div class="div_head">
+            <span>
+                <span style="float: left;">当前位置是：会员管理-》会员列表</span>
+                <span style="float: right; margin-right: 8px; font-weight: bold;">
+                    <a style="text-decoration: none;" href="{$smarty.const.__CONTROLLER__}/add">【添加会员】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+<!--         <div class="div_search">
+            <span>
+                <form action="#" method="get">
+                    品牌<select name="s_product_mark" style="width: 100px;">
+                        <option selected="selected" value="0">请选择</option>
+                        <option value="1">苹果apple</option>
+                    </select>
+                    <input value="查询" type="submit" />
+                </form>
+            </span>
+        </div> -->
+        <div style="font-size: 13px; margin: 10px 5px;">
+            <table class="table_a" border="1" width="100%">
+                <tbody><tr style="font-weight: bold;">
+                        <td>注册ID</td>
+                        <td>用户名</td>
+                        <td>邮箱</td>
+                        <td>QQ</td>
+                        <td>电话</td>
+                        <td>学历</td>
+                        <td>注册时间</td>
+                        <td>最后一次登录时间</td>
+                        <td>修改</td>
+                        <td>删除</td>
+                    </tr>
+                    {foreach $info as $k => $v}
+                    <tr id="product1">
+                        <td>{$v.user_id}--{$v@iteration}</td>
+                        <!--根据权限的等级，显示对应的缩进符号-->
+                        <td>{$v.username}</td>
+                        <td>{$v.user_email}</td>
+                        <td>{$v.user_qq}</td>
+                        <td>{$v.user_tel}</td>
+                        <td>{$v.user_xueli}</td>
+                        <td>{$v.user_time}</td>
+                        <td>{$v.last_time}</td>
+                        <td><a href="{$smarty.const.__CONTROLLER__}/update/user_id/{$v.user_id}">修改</a></td>
+                        <td><a href="{$smarty.const.__CONTROLLER__}/delete/user_id/{$v.user_id}">删除</a></td>
+                    </tr>
+                    {/foreach}
+                    <tr>
+                        <td colspan="20" style="text-align: center;">
+                            {$pagelist}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

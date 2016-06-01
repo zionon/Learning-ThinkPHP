@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2016-05-30 13:57:04
+<?php /* Smarty version Smarty-3.1.6, created on 2016-06-01 17:22:16
          compiled from "/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/update.html" */ ?>
 <?php /*%%SmartyHeaderCode:1361880314574b9f660ffee4-49655617%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bfdc01a3d69b60315cfafc08eb5028903e0adb75' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/Learning-ThinkPHP/shop/Admin/View/Goods/update.html',
-      1 => 1464587362,
+      1 => 1464665422,
       2 => 'file',
     ),
   ),
